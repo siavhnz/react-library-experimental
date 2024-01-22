@@ -21,8 +21,11 @@ jobs:
             - name: Install dependencies
               run: npm install
 
+            - name: add user
+              run: npm adduser
+            
             - name: Login to npm
-              run: npm whoami
+              run: npm login
 
             - name: Publish to npm
               run: npm publish --access public
