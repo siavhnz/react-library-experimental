@@ -65,8 +65,6 @@
             "npm run test"
         ]
     },
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com/@siavhnz"
-    },
+    
     "name": "@siavhnz/react-library-experimental"
 }
